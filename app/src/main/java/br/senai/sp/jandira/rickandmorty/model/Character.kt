@@ -1,5 +1,7 @@
 package br.senai.sp.jandira.rickandmorty.model
 
+import androidx.compose.runtime.MutableState
+
 data class Character(
     val id: Int= 0,
     val name: String= "",
